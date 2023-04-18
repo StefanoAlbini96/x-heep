@@ -275,6 +275,22 @@ def add_registers(peripheral_json):
         if "no_auto_alert_regs" not in peripheral_json:
             reg_struct += alert_regs_auto_gen()
 
+    # Keeps track of the offset in Bytes from the base address of the peripheral.
+    # It is usefult to compute how many Bytes to reserve in case a "skipto"
+    # keywork is encountered
+    bytes_offset = 0 
+
+    
+    # To handle INTR specific registers #
+    if "interrupt_list" in peripheral_json:
+        if 'no_auto_intr_regs' not in peripheral_json:
+            reg_struct += intr_regs_auto_gen()
+
+    # To handle the ALERT registers #
+    if "alert_list" in peripheral_json:
+        if "no_auto_alert_regs" not in peripheral_json:
+            reg_struct += alert_regs_auto_gen()
+
     # loops through the registers of the hjson
     for elem in peripheral_json['registers']:
 
