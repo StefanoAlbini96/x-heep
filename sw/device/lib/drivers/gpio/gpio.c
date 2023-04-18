@@ -8,6 +8,11 @@
 #include "gpio.h"
 
 #include "gpio_regs.h"  // Generated.
+#include "gpio_structs.h"
+
+void test(){
+  gpio_peri->GPIO_CLEAR0 = 10;
+}
 
 /**
  * Gives the mask that corresponds to the given bit index.

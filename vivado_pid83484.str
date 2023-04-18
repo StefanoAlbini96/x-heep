@@ -1,0 +1,209 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 83484
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Apr 18 09:39:53 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Zurich)
+
+OS: Ubuntu
+OS Version: 5.15.0-69-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: 0
+Screen size: 1920x1200
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/home/albini/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/home/albini/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	albini
+User home directory: /home/albini
+User working directory: /home/albini/Documents/ESL/X_HEEP_FW/x-heep
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/albini/Xilinx/Vivado
+HDI_APPROOT: /home/albini/Xilinx/Vivado/2021.2
+RDI_DATADIR: /home/albini/Xilinx/Vivado/2021.2/data
+RDI_BINDIR: /home/albini/Xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: /home/albini/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/albini/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /home/albini/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/home/albini/Xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/albini/Documents/ESL/X_HEEP_FW/x-heep/vivado.log
+Vivado journal file: 	/home/albini/Documents/ESL/X_HEEP_FW/x-heep/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-83484-eslpc36
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/albini/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: /home/albini/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: /home/albini/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /home/albini/Xilinx/Vivado/2021.2
+XILINX_SDK: /home/albini/Xilinx/Vitis/2021.2
+XILINX_VITIS: /home/albini/Xilinx/Vitis/2021.2
+XILINX_VIVADO: /home/albini/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /home/albini/Xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,942 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,889 MB. GUI used memory: 60 MB. Current time: 4/18/23, 9:39:54 AM CEST
+setFileChooser("/home/albini/Documents/ESL/X_HEEP_FW/x-heep/build/openhwgroup.org_systems_core-v-mini-mcu_0/pynq-z2-vivado/openhwgroup.org_systems_core-v-mini-mcu_0.xpr");
+// [GUI Memory]: 69 MB (+69670kb) [00:00:13]
+// [Engine Memory]: 1,891 MB (+1831188kb) [00:00:13]
+// Opening Vivado Project: /home/albini/Documents/ESL/X_HEEP_FW/x-heep/build/openhwgroup.org_systems_core-v-mini-mcu_0/pynq-z2-vivado/openhwgroup.org_systems_core-v-mini-mcu_0.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+42832kb) [00:00:14]
+// [GUI Memory]: 135 MB (+17470kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  2978 ms.
+// Tcl Message: open_project /home/albini/Documents/ESL/X_HEEP_FW/x-heep/build/openhwgroup.org_systems_core-v-mini-mcu_0/pynq-z2-vivado/openhwgroup.org_systems_core-v-mini-mcu_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/albini/Xilinx/Vivado/2021.2/data/ip'. 
+// [Engine Memory]: 2,074 MB (+92959kb) [00:00:18]
+// [GUI Memory]: 151 MB (+9216kb) [00:00:18]
+// Project name: openhwgroup.org_systems_core-v-mini-mcu_0; location: /home/albini/Documents/ESL/X_HEEP_FW/x-heep/build/openhwgroup.org_systems_core-v-mini-mcu_0/pynq-z2-vivado; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bA
+// [GUI Memory]: 169 MB (+10649kb) [00:00:21]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// HMemoryUtils.trashcanNow. Engine heap size: 2,112 MB. GUI used memory: 102 MB. Current time: 4/18/23, 9:40:09 AM CEST
+// 'cR' command handler elapsed time: 8 seconds
+dismissDialog("Synthesis is Out-of-date"); // A
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1858 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2021.2   **** Build date : Oct 19 2021 at 03:13:42     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2021.2.0   ****** Build date   : Sep 27 2021-23:44:20     **** Build number : 2021.2.1632779060       ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.    
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2632 ms.
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 8723.785 ; gain = 861.035 ; free physical = 9898 ; free virtual = 19963 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/albini/Documents/ESL/X_HEEP_FW/x-heep/build/openhwgroup.org_systems_core-v-mini-mcu_0/pynq-z2-vivado/openhwgroup.org_systems_core-v-mini-mcu_0.runs/impl_1/xilinx_core_v_mini_mcu_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bA
+// [Engine Memory]: 3,042 MB (+906239kb) [00:00:48]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,054 MB. GUI used memory: 103 MB. Current time: 4/18/23, 9:40:34 AM CEST
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/albini/Documents/ESL/X_HEEP_FW/x-heep/build/openhwgroup.org_systems_core-v-mini-mcu_0/pynq-z2-vivado/openhwgroup.org_systems_core-v-mini-mcu_0.runs/impl_1/xilinx_core_v_mini_mcu_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bA
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,072 MB. GUI used memory: 103 MB. Current time: 4/18/23, 9:43:39 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,073 MB. GUI used memory: 104 MB. Current time: 4/18/23, 10:13:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,983 MB. GUI used memory: 72 MB. Current time: 4/18/23, 10:43:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,983 MB. GUI used memory: 71 MB. Current time: 4/18/23, 11:13:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 11:43:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 12:13:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 72 MB. Current time: 4/18/23, 12:43:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 1:13:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 1:43:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 2:13:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 72 MB. Current time: 4/18/23, 2:43:40 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 72 MB. Current time: 4/18/23, 3:13:40 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 3:43:40 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 4:13:40 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 4:43:40 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,984 MB. GUI used memory: 71 MB. Current time: 4/18/23, 5:13:40 PM CEST
+// TclEventType: FILE_SET_CHANGE
