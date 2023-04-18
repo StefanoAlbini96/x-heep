@@ -257,6 +257,7 @@ def add_registers(peripheral_json):
 
     reg_struct = "\n"
     reg_enum = ""
+    num_of_reserved = 0    # number of reserved fields
 
     # Keeps track of the offset in Bytes from the base address of the peripheral.
     # It is usefult to compute how many Bytes to reserve in case a "skipto"
@@ -336,10 +337,11 @@ def add_registers(peripheral_json):
 
             offset_value = int((new_address - bytes_offset) / 4)
             
-            line = tab_spaces + "uint32_t _reserved[{}];".format(int(offset_value))
+            line = tab_spaces + "uint32_t _reserved_{}[{}];".format(num_of_reserved, int(offset_value))
             reg_comment = line_comment_start + "reserved addresses" + line_comment_end + "\n\n"
             reg_struct += line.ljust(comment_align_space) + reg_comment
             bytes_offset += offset_value * 4
+            num_of_reserved += 1
 
 
             ## OLD VERSION WITH UNION AND BIT FIELDS ##
